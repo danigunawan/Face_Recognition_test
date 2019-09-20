@@ -1,4 +1,3 @@
-# Face_Recognition_test
 # face_test
 根据arcface loss 写的一个face recognition程序
 
