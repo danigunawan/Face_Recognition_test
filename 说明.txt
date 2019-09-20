@@ -1,0 +1,7 @@
+creat_tfrecods.py 制作tfrecoads数据代码。
+create_feature.py 读取数据，根据训练好的模型，生成512维特征，此特征用来作为库，判断图片是否是库中的人。
+eval_ckpt_file.py 读取模型，读取制作好的验证集bin文件，找到能最好分类人脸的阈值（从0--4）之间。
+generate_image_pairs.py 制作验证集的文件对。
+lfw2pack.py 根据验证集文件对制作验证集bin文件。
+main.py 根据模型以及阈值，测试某图像属于哪个类。
+train_nets.py 训练模型。
